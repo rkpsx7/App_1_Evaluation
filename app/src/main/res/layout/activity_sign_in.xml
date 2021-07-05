@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BC1C2B"
+    tools:context=".SignInActivity">
+
+    <ImageButton
+        android:id="@+id/SignInBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#BC1C2B"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/ic_vector__3_" />
+
+    <TextView
+        android:id="@+id/tvSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="252dp"
+        android:layout_marginTop="32dp"
+        android:paddingHorizontal="22dp"
+        android:text="Sign In"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tvSignIn"
+        android:layout_marginTop="62dp"
+        android:background="@drawable/rectangle"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="22dp"
+            android:text="Welcome back"
+            android:textColor="#BC1C2B"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="2dp"
+            android:text="Continue to Sign In!"
+            android:textColor="#BC1C2B"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="20dp"
+            android:text="Name"
+            android:textColor="#A2A2A2"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/tvUserName"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:textColor="@color/black"
+            android:layout_margin="15dp"
+            android:background="#F5F5F5"
+            android:hint="@string/enter_the_name_hint"
+            android:textColorHint="#A2A2A2" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="Password"
+            android:textColor="#A2A2A2"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/signInPassword"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:layout_margin="15dp"
+            android:textColor="@color/black"
+            android:inputType="numberPassword"
+            android:background="#F5F5F5"
+            android:hint="Enter Password"
+            android:textColorHint="#A2A2A2" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <Button
+                android:id="@+id/btnSignIn2"
+                android:layout_width="280dp"
+                android:layout_height="56dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="44dp"
+                android:layout_marginTop="22dp"
+                android:background="@drawable/button_rect"
+                android:text="Sign In"
+                android:textAllCaps="false"
+                android:textColor="#FFFFFF"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/tvHaveAnAccount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btnSignIn2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="32dp"
+                android:text="Don`t have an Account?"
+                android:textColor="#A2A2A2"
+                android:textSize="18dp" />
+
+
+            <TextView
+                android:id="@+id/tvFinalSignUp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign Up"
+                android:textStyle="bold"
+                android:textColor="#BC1C2B"
+                android:layout_below="@id/tvHaveAnAccount"
+                android:layout_centerHorizontal="true"/>
+<!--            <Button-->
+<!--                android:id="@+id/btnSignInShortCut"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_below="@id/btnSignIn2"-->
+<!--                android:layout_centerHorizontal="true"-->
+<!--                android:layout_marginTop="55dp"-->
+<!--                android:background="@color/white"-->
+<!--                android:text="Sign In"-->
+<!--                android:textAllCaps="false"-->
+<!--                android:textColor="#BC1C2B"-->
+<!--                android:textSize="20dp"-->
+<!--                android:textStyle="bold" />-->
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
