@@ -94,10 +94,18 @@
             android:hint="Enter Password"
             android:textColorHint="#A2A2A2" />
 
+
+
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forgot Password ?"
+                android:layout_alignParentRight="true"
+                android:textColor="#BC1C2B" />
 
             <Button
                 android:id="@+id/btnSignIn2"
